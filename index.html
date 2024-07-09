@@ -4,56 +4,77 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <title>Foundation Landing Page - The Odin Project</title>
 </head>
 <body>
     <header>
-        <img class="logo" src="./assets/beagle.jpeg" alt="beagle playing">
-        <h1>Beagles</h1>
-        <ul>
-            <li><a href="">Facts</a></li>
-            <li><a href="">Quotes</a></li>
-            <li><a href="">Adopt</a></li>
+        <div class="logo-container">
+            <img class="logo" src="./assets/beagle.jpeg" alt="beagle playing">
+            <h1>Beagles</h1>
+
+        </div>
+        <ul class="right-links">
+            <li><a href="#facts">Random Facts about Beagles!</a></li>
+            <li><a href="#quote">Amazing Quotes</a></li>
+            <li><a href="#call">Adopt a Beagle!</a></li>
         </ul>
     </header>
-    <section>
-        <div>
+    <section class="section-hero" id="hero">
+        <div class="hero-content">
             <h2>Meet the Beagle: Your Perfect Companion!</h2>
-            <p>Beagles are not just dogs; they are loyal friends, energetic playmates, and intelligent companions. Known for their keen sense of smell and cheerful disposition, Beagles have been capturing hearts for centuries. Whether you're looking for a family pet or a loyal hunting buddy, the Beagle's playful and curious nature makes them the ideal choice.</p>
+            <p>
+                Beagles are not just dogs; they are loyal friends, energetic playmates, and intelligent companions. Known for their keen sense of smell and cheerful disposition, Beagles have been capturing hearts for centuries. </p>
+            <p>
+                Whether you're looking for a family pet or a loyal hunting buddy, the Beagle's playful and curious nature makes them the ideal choice.
+            </p>
             <button>Adopt!</button>
         </div>
-        <img src="" alt="">
+        <img src="./assets/beagle4.jpg" alt="beagle resting">
     </section>
-    <section>
-        <h2>Some Random Facts about Beagles! :paw_prints: </h2>
-        <div>
-            <img src="" alt="">
-            <h3>History</h3>
-            <p>Beagles date back to Ancient Greece, and their ancestors were used by hunters in Britain as far back as 55 B.C.</p>
-            <img src="" alt="">
+    <section class="section-facts" id="facts">
+        <h2>Some Random Facts about Beagles! 🐾 </h2>
+        <ul class="facts-list">
+            <li>
+                <img src="./assets/beagle1.jpg" alt="beagle playing">
+                <h3>History</h3>
+                <p>Beagles date back to Ancient Greece, and their ancestors were used by hunters in Britain as far back as 55 B.C.</p>
+            </li>
+            <li>
+                <img src="./assets/beagle2.jpg" alt="beagle camping">
             <h3>Nose Power</h3>
             <p>Beagles have an impressive sense of smell and possess around 220 million scent receptors compared to a human’s 5 million</p>
-            <img src="" alt="">
+            </li>
+            <li>
+                <img src="./assets/beagle3.jpg" alt="beagle with his owner">
             <h3>Size Variety</h3>
             <p>There are two Beagle size varieties recognized by the American Kennel Club (AKC): 13 inches and 15 inches in height</p>
-            <img src="" alt="">
+            </li>
+            <li>
+                <img src="./assets/beagle5.jpg" alt="beagle pup">
             <h3>Famous Beagles</h3>
             <p>Snoopy from the Peanuts comic strip is one of the most famous Beagles in pop culture</p>
-        </div>
+            </li>
+        </ul>
     </section>
-    <section>
-        <p>"Beagles are the Sherlock Holmes of the dog world, with their noses leading them to every mystery."</p>
-        <p>– Dog Lover's Digest</p>
+    <section class="section-quote" id="quote">
+        <blockquote>
+            <p>"Beagles are the Sherlock Holmes of the dog world, with their noses leading them to every mystery."</q>
+            <footer>– Dog Lover's Digest</footer>
+        </blockquote>
+        
     </section>
-    <section>
-        <div>
+    <section class="section-call-to-action" id="call">
+        <div call-content>
             <h3>Bring Home a Beagle Today!</h3>
             <p>Are you ready to add joy, laughter, and endless love to your life? Consider adopting a Beagle! These wonderful companions are waiting for their forever homes. Visit your local shelter or Beagle rescue organization today and meet your new best friend. Adopt a Beagle and experience the unconditional love and boundless energy that only a Beagle can bring</p>
         </div>
         <button>Adopt!</button>
     </section>
-    <footer>
-        <p>Copyright :copyright: Beagles.org </p>
+    <footer class="footer">
+        <p>Copyright ©️ Beagles.org </p>
     </footer>
 </body>
 </html>
