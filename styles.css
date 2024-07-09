@@ -33,7 +33,7 @@ body {
 header {
     display: flex;
     justify-content: space-between;
-    padding: 50px;
+    padding: 30px;
     background-color: #1F2937;
 }
 
@@ -184,7 +184,7 @@ blockquote footer {
 .footer {
     display: flex;
     background-color: #1F2937;
-    padding: 30px;
+    padding: 20px;
     align-items: center;
     justify-content: center;
     color: #F9FAF8;
