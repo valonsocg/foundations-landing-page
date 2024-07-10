@@ -74,6 +74,11 @@ header {
     gap: 50px;
 }
 
+.hero-img {
+    width: 600px;
+    border-radius: 15px;
+}
+
 .hero-content {
     display: flex;
     flex-direction: column;
